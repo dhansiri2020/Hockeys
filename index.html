@@ -16,16 +16,16 @@
       }
   </style>
 </head>
-<body class="font-manrope">
+<body class="font-manrope max-w-[1440px] mx-auto p-3">
          <!-- navbar section -->
-  <nav>
+  <nav class="max-w-[1360px] mx-auto">
     <div class="container">
-      <div class="max-w-[1440px] mx-auto lg:pl-3">
+      <!-- <div class="max-w-[1440px] mx-auto lg:pl-3"> -->
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown text-lg">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden relative">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute text-center" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
                <li class="text-[#FF4240]"><a>Home</a></li>
@@ -35,7 +35,7 @@
                <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-3xl font-extrabold tex-[#131318]">Hockey<span class="text-[#FF4240]">’</span>s</a>
+            <a class="btn btn-ghost text-3xl font-extrabold tex-[#131318] mr-4">Hockey<span class="text-[#FF4240]">’</span>s</a>
           </div>
           <div class="navbar-center hidden lg:flex text-lg">
             <ul class="menu menu-horizontal px-1">
@@ -48,9 +48,11 @@
             </div>
             </ul>
           </div>
-          <div class="navbar-end ">
-            <div class=" hidden lg:flex lg:p-8"> <img class="" src="Images/Frame.png" alt=""></div>
+          <div class="navbar-end">
+          
+              <div class=" hidden lg:flex lg:pr-8"> <img class="" src="Images/Frame.png" alt=""></div>
             <a class="btn text-white bg-[#FF4240] py-4 px-6 ">Get Ticket</a>
+            
           </div>
         </div>
       </div>
@@ -61,13 +63,13 @@
         <!-- hero section      -->
    <section>
        <div class="container">
-          <div class="max-w-[1440px] mx-auto p-1">
+          <!-- <div class="max-w-[1440px] mx-auto p-1"> -->
             <div class="carousel max-w-[1410px]  h-[550px] rounded-2xl">
               <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/1.png)] bg-no-repeat bg-cover bg-center">
                 <!-- <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" /> -->
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                  <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❮</a> 
-                  <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                  <a href="#slide4" class="btn btn-circle bg-[#131318] text-white absolute left-28  lg:left-[8px] top-40">❮</a> 
+                  <a href="#slide2" class="btn btn-circle bg-[#131318] text-white absolute right-20 lg:left-[70px] top-40">❯</a>
                 </div>
               </div> 
               <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/1.png)] bg-no-repeat bg-cover bg-center">
@@ -101,8 +103,9 @@
              
               
             </div>
-                <div class="">
-
+                <div class="lg:h-28 w-auto pt-2 lg:w-2/5 mx-auto bg-black text-white p-4 rounded-xl lg:-translate-y-40 lg:translate-x-2/3">
+                   <h2 class="text-xl font-bold">Meet all the heroes from the field</h2>
+                   <p class="p-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
           </div>
        </div>
